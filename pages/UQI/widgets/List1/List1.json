@@ -84,7 +84,7 @@
   "isVisible": true,
   "itemBackgroundColor": "#FFFFFF",
   "key": "vcyn5eniva",
-  "leftColumn": 32,
+  "leftColumn": 50,
   "listData": [
     {
       "id": "001",
@@ -109,7 +109,7 @@
     "undefined": true
   },
   "renderMode": "CANVAS",
-  "rightColumn": 56,
+  "rightColumn": 62,
   "template": {
     "Image1": {
       "animateLoading": true,

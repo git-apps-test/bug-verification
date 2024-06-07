@@ -87,7 +87,7 @@
   "isVisible": true,
   "itemBackgroundColor": "#FFFFFF",
   "key": "vcyn5eniva",
-  "leftColumn": 32,
+  "leftColumn": 50,
   "listData": [
     {
       "id": "001",
@@ -112,7 +112,7 @@
     "undefined": true
   },
   "renderMode": "CANVAS",
-  "rightColumn": 56,
+  "rightColumn": 64,
   "template": {
     "Canvas1Copy": {
       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
