@@ -1,0 +1,100 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": true,
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 7,
+  "boxShadow": "{{RadioGroup1.selectedOptionValue === 'Y'?'0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)':'none'}}",
+  "defaultOptionValue": "[\n  \"GREEN\"\n]",
+  "displayName": "Multi TreeSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "options"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "expandAll"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "expandAll"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "expandAll": "{{Checkbox4.isChecked}}",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.b3e28afbbceae59d6fe826fa409a4b4c.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{Checkbox3.isChecked}}",
+  "isLoading": false,
+  "isRequired": "{{Checkbox1.isChecked}}",
+  "isVisible": "{{Checkbox2.isChecked}}",
+  "key": "mp3mujsijc",
+  "labelAlignment": "right",
+  "labelPosition": "Left",
+  "labelStyle": "ITALIC,BOLD",
+  "labelText": "{{Text1.text}}",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "Select from dropdown",
+  "labelWidth": "7",
+  "leftColumn": 7,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mode": "SHOW_ALL",
+  "onOptionChange": "{{showModal('Modal1')}}",
+  "options": "{{JSObject1.colors}}",
+  "originalBottomRow": 10,
+  "originalTopRow": 3,
+  "parentColumnSpace": 12.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s) from dropdown",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 41,
+  "searchTags": [
+    "dropdown"
+  ],
+  "shouldScrollContents": true,
+  "topRow": 3,
+  "type": "MULTI_SELECT_TREE_WIDGET",
+  "version": 1,
+  "widgetId": "afffghfzzl",
+  "widgetName": "MultiTreeSelect1"
+}
