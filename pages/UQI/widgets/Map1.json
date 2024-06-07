@@ -30,7 +30,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "wbcyok5kce",
-  "leftColumn": 7,
+  "leftColumn": 26,
   "mapCenter": {
     "lat": 25.122,
     "long": 50.132
@@ -39,7 +39,7 @@
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
-  "rightColumn": 31,
+  "rightColumn": 50,
   "topRow": 45,
   "type": "MAP_WIDGET",
   "version": 1,
